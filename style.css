@@ -1,0 +1,122 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+
+a {
+	text-decoration: none;
+}
+
+.navbar {
+	display: flex;
+	align-items: center; 
+	justify-content: space-between;
+					/* ATAS, KANAN, BAWAH, KIRI */
+					/* ATAS-BAWAH, KANAN-KIRI */
+					/* ATAS-BAWAH-KANAN-KIRI */
+	padding: 0.75rem 3rem;
+	background: rgba(0, 0, 0, 0.5);
+}
+
+.navbar h1 {
+	font-size: 2rem;
+	font-weight: bold;
+	color: white;
+}
+
+.navbar .nav-menu a {
+	padding: 0.5rem 1rem;
+	color: white;
+}
+
+.home {
+	padding: 8rem 1rem;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	gap: 3rem;
+	background: grey;
+	color: white;
+}
+
+.home-left {
+	text-align: center;
+	flex-basis: 500px;
+}
+
+.home-left h1 {
+	font-size: 2.5rem;
+	margin-bottom: 8px;
+}
+
+.home-left h2 {
+	margin-bottom: 15px;
+}
+
+/* advantage */
+.advantage {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 3rem 1rem;
+	gap: 1rem;
+}
+
+.advantage .items {
+	display: flex;
+	max-width: 1080px;
+	gap: 3rem;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: baseline;
+}
+
+.advantage .items .item {
+	flex-basis: 250px;
+}
+
+.advantage > a {
+	padding: 0.5rem 2rem;
+	background: grey;
+	color: white;
+}
+
+/* Feature */
+.feature {
+	padding: 8rem 1rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 2rem;
+}
+
+.feature-layout {
+	display: flex;
+	gap: 3rem;
+	align-items: center;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.feature-layout-contents {
+	flex-basis: 400px;
+}
+
+.feature-layout-content {
+	display: flex;
+	gap: 1rem;
+	align-items: start;
+	justify-content: start;
+	margin-bottom: 1rem;
+}
+
+.feature-layout-content > img {
+	object-fit: cover;
+	object-position: center;
+	overflow: hidden;
+	width: 100px;
+}
